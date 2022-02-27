@@ -1,0 +1,137 @@
+body{
+    bottom: 0;
+    background-color: bisque;
+
+}
+
+
+
+footer{
+
+    position:fixed;
+    bottom: 0;
+    height:30px;
+    width:100%;
+    background:#999;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+text-align: center
+}
+
+
+
+
+nav ul{
+  padding-inline-start: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align:center;
+    box-sizing: border-box;
+}
+nav ul li{
+
+
+    flex-basis: 33.33%;
+    margin-left: 2px;
+    padding: 1rem;
+    background-color: black;
+}
+.huidigepagina{
+    text-decoration: underline;
+}
+
+nav ul li a {
+ font-size: 1.2rem;
+    color:red;
+    font-weight: bold;
+     text-decoration: none;
+
+}
+.tabletitle{
+    background-color: orange;
+    text-align:center;
+  font-size: 15pt;
+
+}
+table {
+
+
+
+    text-align: center;
+    background-color: antiquewhite;
+    padding-bottom: 2rem;
+}
+th {
+    width: 16.66666% ;
+padding: 1rem;
+
+}
+
+table,td{
+    border: 1px   gray;
+    font-size: 12pt;
+    text-align: center;
+
+}
+.title{
+    font-size: 2.5rem;
+    text-align: center;
+    background-image: url("afbeelding/photo.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+color: white;
+    padding: 2rem;
+}
+
+.middelbody{
+
+    padding: 5px;
+    font-size: 18pt;
+
+
+}
+table{
+    font-size: 1rem;
+
+}
+
+
+
+
+
+@media screen and (max-width:1200px ) {
+
+    nav>ul{
+        flex-direction: column;
+    }
+
+
+    ul>li{
+        float: none;
+    }
+
+    ul>li>a{
+        font-size: 1em;
+        font-size: 50px;
+    }
+
+    h1{
+        font-size: 1em;
+    }
+    th {
+        width: 100% ;
+        padding: 1rem;
+
+    }
+    footer{
+        margin: auto;
+        position: relative;
+
+    }
+
+
+}
