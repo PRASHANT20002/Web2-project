@@ -26,7 +26,7 @@
         <li class="huidigepagina"><a href="overzicht.jsp">Overzicht</a></li>
     </ul></nav>
 </header>
-<div style="overflow-x: auto" class="middelbody">
+<div style="overflow-x:auto" class="middelbody">
 
 <table >
 <tbody><tr class="tabletitle">

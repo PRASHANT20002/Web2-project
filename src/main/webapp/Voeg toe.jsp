@@ -45,6 +45,6 @@
 </form>
 </form>
 </div>
-<footer><p>The things that I watch to entertain myself</p></footer>
+<footer class="footer2"><p>The things that I watch to entertain myself</p></footer>
 </body>
 </html>
